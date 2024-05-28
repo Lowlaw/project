@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty Recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+    <!-- font-icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="tasty recipes" />
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>  
+      <!-- links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+    <!-- main -->
+    <main class ="page">
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>tasty recipes</h1>
+            <h4>tasty recipes for you and your family.</h4>
+          </div>
+        </div>
+      </header>
+      <body>
+        <section id="hero">
+          <div class="hero-slider">
+            <div class="arrow prev">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="arrow next">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+            <!-- slider -->
+            <h2 class="featured-title">Try out these delicous Recipes!</h2>
+            <div class="slider-container">
+              <div class="slider">
+                <div class="slide">
+                  <img src="assets/recipes/recipe-1.jpeg" alt="Slide Image" class="slide-img">
+                </div>
+                <div class="slide">
+                  <img src="assets/recipes/recipe-2.jpeg" alt="Slide Image" class="slide-img">
+                </div>
+                <div class="slide">
+                  <img src="assets/recipes/recipe-3.jpeg" alt="Slide Image" class="slide-img">
+                </div>
+                <div class="slide">
+                  <img src="assets/recipes/recipe-4.jpeg" alt="Slide Image" class="slide-img">
+                </div>
+              </div>
+            </div>
+            <!-- slider ending -->
+            <!-- slider dot -->
+            <div class="slider-dot">
+            </div>
+            <!-- slider dot end -->
+          </div>
+        </section>
+      <!-- end header -->
+      <!-- recipes container -->
+      <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h4>Recipes</h4>
+          <div class="tags-list">
+            <a href="beef.html">Beef</a>
+            <a href="breakfast.html">Breakfast</a>
+            <a href="vegetables.html">Vegetables</a>
+            <a href="dessert.html">Dessert</a>
+          </div>
+        </div>
+        <!-- end tag container -->
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-1.jpeg" alt="food" class="img recipe-img"/>
+            <h5>Karne Asada</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-2.jpeg" alt="food" class="img recipe-img"/>
+            <h5>Baby Back Ribs</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-3.jpeg" alt="food" class="img recipe-img"/>
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-4.jpeg" alt="food" class="img recipe-img"/>
+            <h5>Banana Pancake</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end single recipe -->                              
+        </div>
+        <!-- end recipes list -->
+      </section>
+      <!-- end recipes container -->
+      <div class="team">
+        <h1>Our<span>Team</span></h1>
+
+        <div class="team_box">
+            <div class="profile">
+                <img src="assets/team1.jpg">
+
+                <div class="info">
+                    <h2 class="name">Ryan</h2>
+                    <p class="bio">My name is Ryan Otacan, from IT2R7</p>
+                    <div class="team_icon">
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="assets/team1.jpg">
+                <div class="info">
+                    <h2 class="name">Otacan</h2>
+                    <p class="bio">My name is Ryan Otacan, from IT2R7</p>
+                    <div class="team_icon">
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p> &copy; <span id="date">2024</span>
+      <span class="footer-logo"> TastyRecipes</span></p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>          
+    <script src="./js/app.js"></script>
+  </body>
+</html>
